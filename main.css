@@ -1,5 +1,5 @@
 h1{
-    color:red;
+    color:green;
 }
 
 ul{
@@ -21,5 +21,13 @@ ul li a{
     color:rgb(255,255,255);
     font-weight: bold;
     text-decoration: none;
+}
 
+div{
+    border: 4px;
+    float: left;
+    margin-right: 50px;
+    width: 45px;
+    height: 45px;
+    background: rgb(255,155,155)
 }
