@@ -7,16 +7,17 @@ ul{
     height:50px;
     background:rgb(100, 150, 255);
     list-style: none;
-    padding-top: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 ul li{
     float: left;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 ul li a{
-    font-size: 40px;
+    font-size: 50px;
     color:rgb(255,255,255);
     font-weight: bold;
     text-decoration: none;
