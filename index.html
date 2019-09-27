@@ -1,43 +1,46 @@
 <!--
-    * index.html v0.3.0
-    * update : 2019.09.20
-    * Author : Seungik.Moon
+ * index.html v0.3.0
+ * Update : 2019.09.20
+ * Author : Seungik.Moon
 -->
-
-<!--main menu -->
+<!-- HTML5 기본 구조 -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="normalize.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>문승익</title>
+  <!-- css 초기화 / normalize.css -->
+  <link rel="stylesheet" href="normalize.css">
+  <!-- 외부 적용 -->
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <nav>
-        <ul>
-            <li><a href = "#">문승익</a></li>
-            <li><a href = "#">메뉴 1</a></li>
-            <li><a href = "#">메뉴 2</a></li>
-            <li><a href = "#">메뉴 3</a></li>
-            <li><a href = "#">메뉴 4</a></li>
-        </ul>
-        </nav>
-    </header>
-    <article>
-        <h1>문승익</h1>
-        <section>
-            <h3>9월 20일 : Display 실습</h3>
-            <div>블럭 1</div>
-            <div>블럭 2</div>
-            <div>블럭 3</div>
-        </section>
-        <br><br><br><br><br>
-        <section>2nd section</section>
-        <section>3rd section</section>
-    </article>
-    <aside>어사이드 영역</aside>
-    <footer>copyright&copy; 2019 Seungik, Moon&nbsp;</footer>
+  <header>Header Area</header>
+<!-- ul-li를 이용한 메인 메뉴 -->
+  <nav>
+    <ul>
+      <li class="home-title">문 승익</li>
+      <li><a href="#">메뉴1</a></li>
+      <li><a href="#">메뉴2</a></li>
+      <li><a href="#">메뉴3</a></li>
+      <li><a href="#">메뉴4</a></li>
+      <li><a href="#">메뉴5</a></li>
+    </ul>
+  </nav>
+  <article class="article-bg">
+    <h2>9월20일 : inline-bluck test</h2>
+    <div class="box-test">블럭1</div>
+    <div class="box-test">블럭2</div>
+    <div class="box-test">블럭3</div>
+  </article>
+  <article>2nd article</article>
+  <article>3rd article</article>
+  <article>
+    <section>1st Section Area</section>
+    <section>2nd Section Area</section>
+    <section>3rd Section Area</section>
+  </article>
+  <aside>Aside Area</aside>
+  <footer>Footer Area</footer>
 </body>
 </html>

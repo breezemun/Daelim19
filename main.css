@@ -6,48 +6,48 @@
 
  /* main menu */
  ul {
-    background: rgb(49, 49, 49);
-    height: 30px;
-    list-style: none;
-    margin: 0px;
-    padding: 15px 10px 8px;
-    width: 100%
-  }
-  ul li {
-    float: left;
-    margin-right: 10px
-  }					
-  ul li a {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none
-  }
-  
-  /* Home Title */
-  .home-title {
-    color: rgb(159, 185, 255);
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 50px;
-  }
-  
-  /* article background */
-  .article-bg {
-    background-color: rgb(104, 104, 175);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    height: 300px;
-    padding: 15px;
-  }
-  
-  /* margin, padding, border test */
-  .box-test {
-    background-color: brown;
-    display: inline-block;
-    border: 10px solid black;
-    margin: 10px;
-    padding: 10px;
-    width: 20%;
-    height: 50%;
-  }
+  background: rgb(49, 49, 49);
+  height: 30px;
+  list-style: none;
+  margin: 0px;
+  padding: 15px 10px 8px;
+  width: 100%
+}
+ul li {
+  float: left;
+  margin-right: 10px
+}					
+ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none
+}
+
+/* Home Title */
+.home-title {
+  color: rgb(159, 185, 255);
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+/* article background */
+.article-bg {
+  background-color: rgb(104, 104, 175);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 300px;
+  padding: 15px;
+}
+
+/* margin, padding, border test */
+.box-test {
+  background-color: brown;
+  display: inline-block;
+  border: 10px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 20%;
+  height: 50%;
+}
