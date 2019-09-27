@@ -1,57 +1,53 @@
 /*
-* index.html v0.3.0
-* update : 2019.09.20
-* Author : Seungik.Moon
-*/
+ * main.css v0.3.0
+ * Update: 2019.09.20
+ * Author: Seungik.Moon
+ */
 
-/* main menu */
-ul { 
-    9   background: rgb(49, 49, 49); 
-    10   height: 30px; 
-    11   list-style: none; 
-    12   margin: 0px; 
-    13   padding: 15px 10px 8px; 
-    14   width: 100% 
-    15 } 
-    16 ul li { 
-    17   float: left; 
-    18   margin-right: 10px 
-    19 }					 
-    20 ul li a { 
-    21   color: rgb(255, 255, 255); 
-    22   font-size: 20px; 
-    23   font-weight: bold; 
-    24   text-decoration: none 
-    25 } 
-    26 
-     
-    27 /* Home Title */ 
-    28 .home-title { 
-    29   color: rgb(159, 185, 255); 
-    30   font-size: 20px; 
-    31   font-weight: bold; 
-    32   margin-right: 50px; 
-    33 } 
-    34 
-     
-    35 /* article background */ 
-    36 .article-bg { 
-    37   background-color: rgb(104, 104, 175); 
-    38   color: rgb(255, 255, 255); 
-    39   text-align: center; 
-    40   height: 300px; 
-    41   padding: 15px; 
-    42 } 
-    43 
-     
-    44 /* margin, padding, border test */ 
-    45 .box-test { 
-    46   background-color: brown; 
-    47   display: inline-block; 
-    48   border: 10px solid black; 
-    49   margin: 10px; 
-    50   padding: 10px; 
-    51   width: 20%; 
-    52   height: 50%; 
-    53 } 
-    
+ /* main menu */
+ ul {
+    background: rgb(49, 49, 49);
+    height: 30px;
+    list-style: none;
+    margin: 0px;
+    padding: 15px 10px 8px;
+    width: 100%
+  }
+  ul li {
+    float: left;
+    margin-right: 10px
+  }					
+  ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none
+  }
+  
+  /* Home Title */
+  .home-title {
+    color: rgb(159, 185, 255);
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+  }
+  
+  /* article background */
+  .article-bg {
+    background-color: rgb(104, 104, 175);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 300px;
+    padding: 15px;
+  }
+  
+  /* margin, padding, border test */
+  .box-test {
+    background-color: brown;
+    display: inline-block;
+    border: 10px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    height: 50%;
+  }
