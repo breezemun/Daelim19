@@ -65,6 +65,14 @@ ul li a {
   padding: 15px;
 }
 
+.article-5th-bg {
+  background-color: rgb(150, 200, 200);
+  color: rgb(0, 0, 0);
+  align-content: center;
+  height: 300px;
+  padding: 15px;
+}
+
 /* margin, padding, border test */
 .box-test {
   background-color: yellow;
