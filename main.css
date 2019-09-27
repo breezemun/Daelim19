@@ -34,8 +34,16 @@ ul li a {
 
 /* article background */
 .article-bg {
-  background-color: rgb(104, 104, 175);
+  background-color: rgb(150, 200, 200);
   color: rgb(255, 255, 255);
+  text-align: center;
+  height: 300px;
+  padding: 15px;
+}
+
+.article-2nd-bg {
+  background-color: rgb(150, 250, 150);
+  color: rgb(0, 0, 0);
   text-align: center;
   height: 300px;
   padding: 15px;
@@ -43,7 +51,7 @@ ul li a {
 
 /* margin, padding, border test */
 .box-test {
-  background-color: brown;
+  background-color: yellow;
   display: inline-block;
   border: 10px solid black;
   margin: 10px;
