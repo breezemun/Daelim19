@@ -52,7 +52,7 @@ ul li a {
   height: 50%;
 }
 
-.images-cropper-50{
+.image-cropper-50{
   height: 200px;
   margin: 15px;
   width: 200px;
@@ -63,7 +63,7 @@ ul li a {
   border-radius: 50%;
 }
 
-.images-cropper-25{
+.image-cropper-25{
   height: 200px;
   margin: 15px;
   width: 200px;
@@ -74,7 +74,7 @@ ul li a {
   border-radius: 25%;
 }
 
-.images-cropper-5{
+.image-cropper-5{
   height: 200px;
   margin: 15px;
   width: 200px;
