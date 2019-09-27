@@ -5,39 +5,53 @@
 */
 
 /* main menu */
-h1{
-    padding-left: 50%;
-    color:green;
-}
-
-ul{
-    width:100%;
-    height:50px;
-    background:rgb(100, 150, 255);
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-ul li{
-    float: left;
-    margin-right: 50px;
-}
-
-ul li a{
-    font-size: 50px;
-    color:rgb(255,255,255);
-    font-weight: bold;
-    text-decoration: none;
-}
-
-div{
-    float: left;
-    padding: 10px;
-    font-size: 18px;
-    border: 4px solid black;
-    margin: 5px;
-    width: 50px;
-    height: 50px;
-    background: rgb(255,155,155)
-}
+ul { 
+    9   background: rgb(49, 49, 49); 
+    10   height: 30px; 
+    11   list-style: none; 
+    12   margin: 0px; 
+    13   padding: 15px 10px 8px; 
+    14   width: 100% 
+    15 } 
+    16 ul li { 
+    17   float: left; 
+    18   margin-right: 10px 
+    19 }					 
+    20 ul li a { 
+    21   color: rgb(255, 255, 255); 
+    22   font-size: 20px; 
+    23   font-weight: bold; 
+    24   text-decoration: none 
+    25 } 
+    26 
+     
+    27 /* Home Title */ 
+    28 .home-title { 
+    29   color: rgb(159, 185, 255); 
+    30   font-size: 20px; 
+    31   font-weight: bold; 
+    32   margin-right: 50px; 
+    33 } 
+    34 
+     
+    35 /* article background */ 
+    36 .article-bg { 
+    37   background-color: rgb(104, 104, 175); 
+    38   color: rgb(255, 255, 255); 
+    39   text-align: center; 
+    40   height: 300px; 
+    41   padding: 15px; 
+    42 } 
+    43 
+     
+    44 /* margin, padding, border test */ 
+    45 .box-test { 
+    46   background-color: brown; 
+    47   display: inline-block; 
+    48   border: 10px solid black; 
+    49   margin: 10px; 
+    50   padding: 10px; 
+    51   width: 20%; 
+    52   height: 50%; 
+    53 } 
+    
