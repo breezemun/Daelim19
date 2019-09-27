@@ -51,3 +51,36 @@ ul li a {
   width: 20%;
   height: 50%;
 }
+
+.images-cropper-50{
+  height: 200px;
+  margin: 15px;
+  width: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.images-cropper-25{
+  height: 200px;
+  margin: 15px;
+  width: 200px;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -ms-border-radius: 25%;
+  -o-border-radius: 25%;
+  border-radius: 25%;
+}
+
+.images-cropper-5{
+  height: 200px;
+  margin: 15px;
+  width: 200px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  border-radius: 5%;
+}
