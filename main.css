@@ -5,6 +5,12 @@
  */
 
  /* main menu */
+
+head{
+  font-family: 'Nanum Brush Script', cursive;
+  font-family: 'Coming Soon', cursive;
+}
+
  ul {
   background: rgb(49, 49, 49);
   height: 30px;
@@ -67,6 +73,22 @@ ul li a {
 
 .article-5th-bg {
   background-color: rgb(150, 200, 200);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  height: 300px;
+  padding: 15px;
+}
+
+.article-6th-bg {
+  background-color: rgb(90, 120, 80);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  height: 300px;
+  padding: 15px;
+}
+
+.article-7th-bg {
+  background-color: rgb(80, 80, 120);
   color: rgb(0, 0, 0);
   text-align: center;
   height: 300px;
