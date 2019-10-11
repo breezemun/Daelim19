@@ -326,3 +326,23 @@ tfoot {
   grid-column: 2 / span 2;
   grid-row: 5;
 }
+
+.ghost-button {
+  display: inline-block;
+  width: 300px;
+  padding: 8px;
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  cursor: default;
+}
+
+.ghost-button:hover {
+  background: rgb(223, 188, 73);
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 3px solid #fff;
+  cursor: default;
+}
