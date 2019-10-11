@@ -1,126 +1,151 @@
 <!--
- * index.html v0.3.0
- * Update : 2019.09.20
- * Author : Seungik.Moon
+ * index.html v0.8.1
+ * Update : 2019.10.11
+ * Author : SeungIk.Moon
 -->
 <!-- HTML5 기본 구조 -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Nanum+Brush+Script&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <title>문승익</title>
   <!-- css 초기화 / normalize.css -->
   <link rel="stylesheet" href="normalize.css">
   <!-- 외부 적용 -->
   <link rel="stylesheet" href="main.css">
+  <!-- 10월2일 webfont -->
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>Header Area</header>
+  <!-- 10월 11일 : Fullscreen background header-->
+  <header calss="full-bg">
+      <div class="container">
+        <div class="header-title">
+          문승익 홈페이지
+          <p class="header-sub-title">
+            문승익의 홈페이지 입니다.<br />
+            2019년 2학기 실습 내용을 정리했습니다.
+          </p>
+        </div>
+      </div>
+    </header>
 <!-- ul-li를 이용한 메인 메뉴 -->
   <nav>
     <ul>
-      <li class="home-title">문승익</li>
-      <li><a href="#">메뉴1</a></li>
-      <li><a href="#">메뉴2</a></li>
-      <li><a href="#">메뉴3</a></li>
+      <li class="home-title">MoonSeungIk</li>
+      <li><a href="#9-20">Image</a></li>
+      <li><a href="#9-27">Audio </a></li>
+      <li><a href="#10-2">Grid</a></li>
       <li><a href="#">메뉴4</a></li>
       <li><a href="#">메뉴5</a></li>
     </ul>
   </nav>
-
-  <article class="article-bg">
-    <h2>9월20일 : inline-bluck</h2>
+<!-- 9월20일 display -->
+<a name="9-20"></a>
+<article class="article-bg">
+    <h2>9월20일 : inline-bluck test</h2>
     <div class="box-test">블럭1</div>
     <div class="box-test">블럭2</div>
     <div class="box-test">블럭3</div>
   </article>
-
-  <article class="article-2nd-bg">
-    <h2>9월27일 : image</h2>
+<a name="9-27"></a>
+<!-- 9월27일 이미지 -->
+<article class="article-2nd-bg">
+    <h2>9월27일 : image </h2>
     <img class="image-cropper-50" src="./images/cat1.jpg" alt="이미지 연습">
-    <img class="image-cropper-25" src="./images/cat1.jpg" alt="이미지 연습">
-    <img class="image-cropper-5" src="./images/cat1.jpg" alt="이미지 연습">
+    <img class="image-cropper-25" src="./images/cat2.jpg" alt="이미지 연습">
+    <img class="image-cropper-5" src="./images/cat3.jpg" alt="이미지 연습">
   </article>
-
-  <article class="article-3rd-bg">
-    <h2>9월27일 : audio, video 태그 사용하기</h2>
+<!-- 9월27일 멀티미디어 -->
+<article class="article-3rd-bg">
+    <h2>9월27일 : audio, video </h2>
     <section>
-        <h3>audio tag</h3>
-        <audio controls>
-            <source src="./audio/file_example_MP3_700KB.mp3">
-        </audio>
+      <h3>audio tag</h3>
+      <audio controls>
+          <source src="file_example_MP3_700KB">
+      </audio>
     </section>
     <section>
-        <h3>video tag</h3>
-        <video controls>
-            <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
-            <source src="http://techslides.com/demos/sample-videos/small.ogu" type="video/ogu">
-            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-            <source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
-        </video>
+      <h3>video tag</h3>
+      <video controls> 
+      <source src=http://techslides.com/demos/sample-videos/small.webm type=video/webm> 
+      <source src=http://techslides.com/demos/sample-videos/small.ogv type=video/ogg> 
+      <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+      <source src=http://techslides.com/demos/sample-videos/small.3gp type=video/3gp>
+      </video>
     </section>
   </article>
-
-  <article class="article-4th-bg">
+<!-- 9월27일 유튜브 -->
+<article class="article-4th-bg">
     <h2>9월27일 : Youtube</h2>
-    <section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BkIqZEvNgm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ytY4rYGW7Wc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </article>
-
-  <article class="article-5th-bg">
-        <h2>9월27일 : Table</h2>
-        <section>
-                <table border="1">
-                    <tr>
-                        <th colspan="4">테이블 연습</th>
-                    </tr>
-                    <tr>
-                        <th rowspan="4">줄<br>합<br>치<br>기</th>
-                        <th colspan="3">칸합치기</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                    </tr>
-                </table>
-        </section>
-      </article>
-
+<!-- 9월27일 테이블 -->
+<article class="article-5th-bg">
+      <h2>9월27일 : Table</h2>
+      <table class="table-sample">
+      <thead>
+        <tr>
+          <th colspan="4">테이블 연습</th>
+        </tr>
+        <tr>
+          <th colspan="4">thead 테그 영역</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="4" class="jool">줄합치기</th>
+          <th colspan="3">칸합치기</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">tfoot테그</td>
+        </tr>
+      </tfoot>
+    </table>
+  </article>
+<!-- 9월27일 Grid연습 -->
   <article class="article-6th-bg">
-    <h2>9월27일 : Half</h2>
-      <section>
-      
-      </section>
-  </article>   
-
-  <article class="article-7th-bg">
-    <h2>10월2일 : Grid</h2>
-      <section>
-
-    </section>
+    <section class="section-title"><h2>9월27일 : Grid</h2></section>
+    <section class="section-left">Left section</section>
+    <section class="section-right">right section</section>
   </article>
-
-  <article>2nd article</article>
-  <article>3rd article</article>
-  <article>
-    <section>1st Section Area</section>
-    <section>2nd Section Area</section>
-    <section>3rd Section Area</section>
+<a name="10-2"></a>
+<!-- 10월2일 CSS Grid -->
+  <article class="grid-container">
+    <div class="grid-item item1">10월2일 : CSS Grid</div>
+    <div class="grid-item item2">2</div>
+    <div class="grid-item item3">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item item10">10</div>
   </article>
-  <aside>Aside Area</aside>
-  <footer>Footer Area</footer>
+<!-- 10월2일 aside, footer -->
+<aside class="aside-bg">
+    잘 모르겠습니다.
+  </aside>
+  <footer class="footer-bg">
+    Copyright&copy;2019.SeungIk.All rights reserved. 
+  </footer>
 </body>
 </html>

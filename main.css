@@ -1,14 +1,42 @@
 /*
- * main.css v0.3.0
- * Update: 2019.09.20
- * Author: Seungik.Moon
+ * main.css v0.8.1
+ * Update: 2019.10.11
+ * Author: SeungIk.Moon
  */
 
  /* main menu */
+ 
+ .full-bg {
+  background: url(./images/cat1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: table;
+}
 
-head{
-  font-family: 'Nanum Brush Script', cursive;
-  font-family: 'Coming Soon', cursive;
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header-title {
+  display: inline-block;
+  width: 50%;
+  height: 140px;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 25px;
+  background: rgba(11, 0, 73, .8);
+  color: #fff;
+}
+
+.header-sub-title {
+  font-size: 20px;
+  color: rgb(255, 244, 180);
 }
 
  ul {
@@ -17,7 +45,6 @@ head{
   list-style: none;
   margin: 0px;
   padding: 15px 10px 8px;
-  width: 100%
 }
 ul li {
   float: left;
@@ -25,9 +52,11 @@ ul li {
 }					
 ul li a {
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 28px;
   font-weight: bold;
-  text-decoration: none
+  margin-right: 20pt;
+  text-decoration: none;
 }
 
 /* Home Title */
@@ -38,75 +67,72 @@ ul li a {
   margin-right: 50px;
 }
 
-/* article background */
-.article-bg {
-  background-color: rgb(150, 200, 200);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  height: 300px;
-  padding: 15px;
-}
-
-.article-2nd-bg {
-  background-color: rgb(150, 250, 150);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  height: 300px;
-  padding: 15px;
-}
-
-.article-3rd-bg {
-  background-color: rgb(120, 200, 250);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  height: 600px;
-  padding: 15px;
-}
-
-.article-4th-bg {
-  background-color: rgb(80, 170, 50);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  height: 400px;
-  padding: 15px;
-}
-
-.article-5th-bg {
-  background-color: rgb(150, 200, 200);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  height: 300px;
-  padding: 15px;
-}
-
-.article-6th-bg {
-  background-color: rgb(90, 120, 80);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  height: 300px;
-  padding: 15px;
-}
-
-.article-7th-bg {
-  background-color: rgb(80, 80, 120);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  height: 300px;
-  padding: 15px;
-}
-
 /* margin, padding, border test */
 .box-test {
-  background-color: yellow;
-  display: inline-block;
+  background-color: brown;
   border: 10px solid black;
+  display: inline-block;
+  height: 50%;
   margin: 10px;
   padding: 10px;
   width: 20%;
-  height: 50%;
 }
 
-.image-cropper-50{
+/* article background */
+.article-bg {
+  background-color: rgb(104, 104, 175);
+  color: rgb(255, 255, 255);
+  height: 300px;
+  padding: 15px;
+  text-align: center;
+}
+/* 2nd article background */
+.article-2nd-bg {
+  background-color: rgb(255, 199, 44);
+  height: 300px;
+  padding: 15px;
+  text-align: center;
+}
+/* 3rd article background */
+.article-3rd-bg {
+  background-color: rgb(67, 25, 107);
+  color: white;
+  height: 600px;
+  padding: 15px;
+  text-align: center;
+}
+/* 4th article background */
+.article-4th-bg {
+  background-color: rgb(84, 54, 255);
+  height: 450px;
+  padding: 15px;
+  text-align: center;
+}
+/* 5th article background */
+.article-5th-bg {
+  background-color: rgb(212, 212, 212);
+  height: 450px;
+  padding: 15px;
+  text-align: center;
+}
+
+/* aside background */
+.aside-bg {
+  border: 5px solid rgb(59, 26, 180);
+  height: 150px;
+  padding: 15px;
+}
+/* footer background */
+.footer-bg {
+  background-color: rgb(73, 73, 73);
+  color: aliceblue;
+  height: 40px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+/* image 꾸미기 */
+.image-cropper-50 {
   height: 200px;
   margin: 15px;
   width: 200px;
@@ -116,8 +142,7 @@ ul li a {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-
-.image-cropper-25{
+.image-cropper-25 {
   height: 200px;
   margin: 15px;
   width: 200px;
@@ -127,8 +152,7 @@ ul li a {
   -o-border-radius: 25%;
   border-radius: 25%;
 }
-
-.image-cropper-5{
+.image-cropper-5 {
   height: 200px;
   margin: 15px;
   width: 200px;
@@ -137,4 +161,88 @@ ul li a {
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
   border-radius: 5%;
+}
+
+/* table 꾸미기 */
+.table-sample {
+  border: 1px solid #272727;
+  border-collapse: collapse;
+  height: 300px;
+  margin: 3% auto;
+  width: 500px;
+}
+th, td {
+  border: 1px solid #272727;
+  padding: 10px;
+}
+thead {
+  background-color: blueviolet;
+  color: aliceblue;
+}
+tbody {
+  background-color: rgb(255, 255, 255);
+}
+tfoot {
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+/* 1/2 grid */
+.section-title {
+  background: blueviolet;
+  color: rgb(255, 255, 255);
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.section-title h2 {
+  margin: 0px;
+}
+.section-left {
+  background: #ffac13;
+  color: rgb(255, 255, 255);
+  float: left;
+  height: 400px;
+  line-height: 35px;
+  text-align: center;
+  width: 50%;
+}
+.section-right {
+  background: #067430;
+  color: rgb(255, 255, 255);
+  float: right;
+  height: 400px;
+  line-height: 35px;
+  text-align: center;
+  width: 50%;
+}
+
+/* css grid */
+.grid-container {
+  background-color: rgb(207, 42, 42);
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255);
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.item1 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+.item2 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+.item3 {
+  grid-column: 3;
+  grid-row: 2 / span 2;
+}
+.item10 {
+  grid-column: 2 / span 2;
+  grid-row: 5;
 }
