@@ -21,7 +21,7 @@
   <header class="full-bg">
       <div class="container">
         <div class="header-title">
-          문승익 홈페이지
+          Moon Seung Ik
           <p class="header-sub-title">
             문승익의 홈페이지 입니다.<br />
             2019년 2학기 실습 내용을 정리했습니다.
@@ -30,14 +30,19 @@
       </div>
     </header>
 <!-- ul-li를 이용한 메인 메뉴 -->
-  <nav>
+  <nav class="menu">
     <ul>
       <li class="home-title">MoonSeungIk</li>
       <li><a href="#9-20">Image</a></li>
-      <li><a href="#9-27">Audio </a></li>
-      <li><a href="#10-2">Grid</a></li>
-      <li><a href="#">메뉴4</a></li>
-      <li><a href="#">메뉴5</a></li>
+      <li><a href="#9-27">Audio, Video </a>
+      <ul >
+          <a href="#audio-link">Audio</a>
+          <a href="#video-link">Video</a>
+      </ul>
+      </li>
+      <li><a href="#table-link">Table</a></li>
+      <li><a href="#grid-link">Grid</a></li>
+      <li><a href="#css-link">Css</a></li>
     </ul>
   </nav>
 <!-- 9월20일 display -->
@@ -53,20 +58,22 @@
 <article class="article-2nd-bg">
     <h2>9월27일 : image </h2>
     <img class="image-cropper-50" src="./images/cat1.jpg" alt="이미지 연습">
-    <img class="image-cropper-25" src="./images/cat2.jpg" alt="이미지 연습">
+    <img class="image-cropper-25" src="./images/RV2.jpg" alt="이미지 연습">
     <img class="image-cropper-5" src="./images/cat3.jpg" alt="이미지 연습">
   </article>
 <!-- 9월27일 멀티미디어 -->
 <article class="article-3rd-bg">
     <h2>9월27일 : audio, video </h2>
     <section>
-      <h3>audio tag</h3>
+        <a name="audio-link"></a>
+        <h3>audio tag</h3>
       <audio controls>
           <source src="file_example_MP3_700KB">
       </audio>
     </section>
     <section>
-      <h3>video tag</h3>
+        <a name="video-link"></a>
+        <h3>video tag</h3>
       <video controls> 
       <source src=http://techslides.com/demos/sample-videos/small.webm type=video/webm> 
       <source src=http://techslides.com/demos/sample-videos/small.ogv type=video/ogg> 
@@ -82,6 +89,7 @@
   </article>
 <!-- 9월27일 테이블 -->
 <article class="article-5th-bg">
+    <a name="table-link"></a>
       <h2>9월27일 : Table</h2>
       <table class="table-sample">
       <thead>
@@ -121,6 +129,7 @@
     </table>
   </article>
 <!-- 9월27일 Grid연습 -->
+<a name="grid-link"></a>
   <article class="article-6th-bg">
     <section class="section-title"><h2>9월27일 : Grid</h2></section>
     <section class="section-left">Left section</section>
@@ -128,6 +137,7 @@
   </article>
 <a name="10-2"></a>
 <!-- 10월2일 CSS Grid -->
+<a name="css-link"></a>
   <article class="grid-container">
     <div class="grid-item item1">10월2일 : CSS Grid</div>
     <div class="grid-item item2">2</div>
