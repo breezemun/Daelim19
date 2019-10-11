@@ -336,6 +336,7 @@ tfoot {
   text-align: center;
   outline: none;
   text-decoration: none;
+  cursor: default;
 }
 
 .ghost-button:hover {
@@ -343,4 +344,5 @@ tfoot {
   color: #FFFFFF;
   text-decoration: none;
   border: 3px solid #fff;
+  cursor: default;
 }
