@@ -1,0 +1,89 @@
+/*
+ * menu.css v0.1.0
+ * Update: 2019.10.11
+ * Author: SeungIk.Moon
+ */
+
+.menu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 28px;
+  font-weight: bold;
+}
+  
+.menu ul {
+  background: rgba(109,109,109);
+  height: 70px;
+  list-style: none;
+  margin: 0px;
+}
+  
+.menu li {
+  float: left;
+}
+  
+.menu li a {
+  background: rgb(109,109,109);
+  color: #cccccc;
+  display: block;
+  font-weight: normal;
+  line-height: 70px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+  
+.menu li a:hover, 
+.menu ul li:hover a {
+  background: rgb(71,71,71);
+  color: #FFFFFF;
+  text-decoration: none;
+}
+  
+.menu li ul {
+  background: rgb(109,109,109);
+  display: none; /* mouse hover�� display 湲덉� */
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 200px;
+  z-index: 200;
+}
+  
+.menu li:hover ul {
+  display: block; /* mouse hover action */
+}
+  
+.menu li li {
+  background: rgb(109,109,109);
+  display: block;
+  width: 200px;
+}
+  
+.menu li:hover li a {
+  background: none;
+  padding-bottom: 15px;
+}
+  
+.menu li ul a {
+  display: block;
+  height: 50px;
+  font-size: 28px;
+  font-style: normal;
+  margin: 0px;
+  text-align: left;
+}
+  
+.menu li ul a:hover, 
+.menu li ul li:hover a {
+  background: rgb(71,71,71);
+  border: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
