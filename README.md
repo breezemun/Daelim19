@@ -1,5 +1,11 @@
 # 문승익 : daelim2019-2 project
 
+## 2019.10.23
+> 1. dom_fault.html
+> 2. select_id.html
+> 3. control_text.html
+> 4. dom_clock.html
+
 ## 2019.10.11
 > 1. bg 생성
 > 2. css 적용
