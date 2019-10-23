@@ -2,8 +2,17 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>DOM Basic</title>
+  <title>Document Object Model</title>
+</head>
+<body>
+  <h1>Process - 1</h1>
+  <h2>Process - 2</h2>
+  <h1 id="header">Header</h1>
   <script>
+      // h1 태그의 배경 색상을 변경합니다.
+      document.querySelector('h1').style.background = 'red';
+      // h2 태그의 글자 색상을 변경합니다.
+      document.querySelector('h2').style.color = 'red';
       // 이벤트를 연결합니다.
       window.onload = function (){
         // 문서 객체를 선택합니다.
@@ -15,8 +24,5 @@
         header.innerHTML = 'From JavaScript';
       };
     </script>
-</head>
-<body>
-  <h1 id="header">Header</h1>
 </body>
 </html>
