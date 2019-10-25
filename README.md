@@ -1,5 +1,9 @@
 # 문승익 : daelim2019-2 project
 
+## 2019.10.25
+> 1. jqueryTest.html
+
+
 ## 2019.10.23
 > 1. dom_basic.html
 > 2. dom_basic2.html
