@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Basic2</title>
+  <script>
+      setInterval(function() { // 일정한 시간 간격으로 작업을 반복 실행
+      var date = new Date(); // Data() 객체 생성
+      var currenYear = date.getFullYear(); // Year 추출
+      var currenMonth = ( date.getMonth() + 1 ); // Month 추출
+      var currenDate = date.getDate(); // Date 추출
+      var currenHours = date.getHours(); //  Hours
+      var currenMinutes = date.getMinutes(); // Minutes 추출
+      var currenSeconds = date.getSeconds(); // Seconds 추출
+      var dateAll = date + "<br />" + currenYear + "년 <br />" + currenMonth + "월 <br />" + currenDate + "일 <br />" + currenHours + "시 <br />" + currenMinutes + "분 <br />" + currenSeconds + "초 <br />" + "입니다." ;
+      document.body.innerHTML = dateAll; // dateAll 출력
+      }, 1000); // 1초 간격
+    </script>
+</head>
+<body>
+
+</body>
+</html>
