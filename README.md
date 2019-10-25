@@ -6,6 +6,7 @@
 > 3. jqueryTest3.html
 > 4. event_basic.html
 > 5. animate_basic.html
+> 6. calendar.html
 
 
 ## 2019.10.23
