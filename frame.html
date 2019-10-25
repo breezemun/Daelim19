@@ -8,7 +8,7 @@
       // 변수를 선언합니다.
       var count = 0;
       var image = document.getElementById('image');
-      var frames = ['', './images/1.png', './images/2.png', './images/3.png', './images/4.png', './images/5.png', './images/6.png', './images/7.png', './images/8.png', './images/9.png', './images/10.png', './images/11.png', './images/12.png', './images/13.png', './images/14.png', ];
+      var frames = ['./images/1.png', './images/2.png', './images/3.png', './images/4.png', './images/5.png', './images/6.png', './images/7.png', './images/8.png', './images/9.png', './images/10.png', './images/11.png', './images/12.png', './images/13.png', './images/14.png', ];
       // 타이머 반복을 시작합니다.
       setInterval(function () {
         image.src = frames[count % frames.length];
