@@ -4,6 +4,8 @@
 > 1. jqueryTest.html
 > 2. jqueryTest2.html
 > 3. jqueryTest3.html
+> 4. event_basic.html
+> 5. animate_basic.html
 
 
 ## 2019.10.23
