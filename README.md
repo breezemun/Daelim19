@@ -7,6 +7,7 @@
 > 4. event_basic.html
 > 5. animate_basic.html
 > 6. calendar.html
+> 7. frame.html
 
 
 ## 2019.10.23
