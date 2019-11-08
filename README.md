@@ -2,6 +2,7 @@
 
 ## 2019.11.08
 > 1. infinityScroll.html
+> 2. backStretch.html
 
 ## 2019.10.25
 > 1. jqueryTest.html
