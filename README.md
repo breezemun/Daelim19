@@ -1,5 +1,8 @@
 # 문승익 : daelim2019-2 project
 
+## 2019.11.08
+> 1. infinityScroll.html
+
 ## 2019.10.25
 > 1. jqueryTest.html
 > 2. jqueryTest2.html
