@@ -4,6 +4,8 @@
 > 1. infinityScroll.html
 > 2. backStretch.html
 > 3. vegasVideo.html
+> 4. youtubeBG.html (fixing)
+> 5. MSI-html5.code-snippets
 
 ## 2019.10.25
 > 1. jqueryTest.html
