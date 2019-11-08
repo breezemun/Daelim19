@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Back Stretch</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="vegas.min.js"></script>
+  <link rel="stylesheet" href="vegas.min.css" />
+</head>
+<body>
+    <script>
+        $("#example, body").vegas({
+        slides: [
+            {   src: 'images/RV1.jpg' },
+            {   src: 'images/RV2.jpg',
+                video: {
+                    src: [
+                        'videos/R2.mp4',
+                        'videos/R2.webm',
+                        'videos/R2.ogv'
+                    ],
+                    loop: false,
+                    mute: true
+                }
+            }
+        ]
+    });
+      </script>
+</body>
+</html>
