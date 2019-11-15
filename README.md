@@ -6,7 +6,7 @@
 > 3. bs_carousel.html
 > 4. bs_collapse.html
 > 5. bs_modal.html
-> 6. bS_navbar.html
+> 6. bs_navbar.html
 
 ## 2019.11.08
 > 1. infinityScroll.html
