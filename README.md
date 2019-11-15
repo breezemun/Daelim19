@@ -5,12 +5,14 @@
 > 2. bs_button.html
 > 3. bs_carousel.html
 > 4. bs_collapse.html
+> 5. bs_modal.html
+> 6. bS_navbar.html
 
 ## 2019.11.08
 > 1. infinityScroll.html
 > 2. backStretch.html
 > 3. vegasVideo.html
-> 4. youtubeBG.html (fixing)
+> 4. youtubeBG.html (fixing...)
 > 5. MSI-html5.code-snippets
 
 ## 2019.10.25
