@@ -1,5 +1,8 @@
 # 문승익 : daelim2019-2 project
 
+## 2019.11.15
+> 1. bs_index.html
+
 ## 2019.11.08
 > 1. infinityScroll.html
 > 2. backStretch.html
