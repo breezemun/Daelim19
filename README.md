@@ -3,6 +3,8 @@
 ## 2019.11.15
 > 1. bs_index.html
 > 2. bs_button.html
+> 3. bs_carousel.html
+> 4. bs_collapse.html
 
 ## 2019.11.08
 > 1. infinityScroll.html
