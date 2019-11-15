@@ -7,6 +7,9 @@
 > 4. bs_collapse.html
 > 5. bs_modal.html
 > 6. bs_navbar.html
+> 7. bs_progress.html
+> 8. favicon 적용
+
 
 ## 2019.11.08
 > 1. infinityScroll.html
