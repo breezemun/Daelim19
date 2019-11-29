@@ -1,15 +1,15 @@
-ï»¿<?php
+<?php
 $db_host = "localhost";
 $db_user = "breezemun";
 $db_password = "anstmddlr1!";
 $db_name = "breezemun";
-$con = mysqli_connent($db_host, $db_user, $db_password, $db_name);
+$con = mysqli_connect($db_host, $db_user, $db_password, $db_name);
 if(mysqli_connect_error($con)){
-    echo "MySQL ì ‘ì† ì‹¤íŒ¨!!", "<BR>";
-    echo "ì˜¤ë¥˜ ì›ì¸ : ", mysqli_connent_error();
+    echo "MySQL Á¢¼Ó ½ÇÆĞ.", "<BR>";
+    echo "¿À·ù ¿øÀÎ : ", mysqli_connect_error();
     exit();
 }
-echo "MySQL ì ‘ì† ì™„ì „íˆ ì„±ê³µ!!";
+echo "MySQL Á¢¼Ó ¿ÏÀüÈ÷ ¼º°ø.";
 mysqli_close($con);
 ?>
 

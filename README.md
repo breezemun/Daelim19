@@ -2,7 +2,8 @@
 
 ## 2019-11-29
 > 1. db_test.php
-> 2. db_test2.php
+> 2. table.php
+> 3. insert.php
 
 ## 2019-11-22
 > 1. index2.html
