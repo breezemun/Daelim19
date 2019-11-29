@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "breezemun", "anstmddlr1!", "breezemun") or die("MySQL 立加 角菩!!");
+$con = mysqli_connect("localhost", "breezemun", "anstmddlr1!", "breezemun") or die("MySQL 立加 角菩.");
 
 $sql ="
     INSERT INTO userTBL VALUES

@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "breezemun", "anstmddlr1!", "breezemun") or die("MySQL 접속 실패!!");
+$con = mysqli_connect("localhost", "breezemun", "anstmddlr1!", "breezemun") or die("MySQL 접속 실패.");
 
 $sql ="
 CREATE TABLE IF NOT EXISTS userTBL
@@ -20,7 +20,7 @@ if($ret) {
     echo "userTBL이 성공적으로 생성됨.";
 }
 else {
-    echo "userTBL 생성 실패!!!", "<BR>";
+    echo "userTBL 생성 실패.", "<BR>";
     echo "실패 원인 : ".mysqli_error($con);
 }
 
