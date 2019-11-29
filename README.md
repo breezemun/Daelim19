@@ -1,5 +1,12 @@
 # 문승익 : daelim2019-2 project
 
+## 2019-11-29
+> 1. db_test.php
+> 2. db_test2.php
+
+## 2019-11-22
+> 1. index2.html
+
 ## 2019.11.15
 > 1. bs_index.html
 > 2. bs_button.html
@@ -9,7 +16,6 @@
 > 6. bs_navbar.html
 > 7. bs_progress.html
 > 8. favicon 적용
-
 
 ## 2019.11.08
 > 1. infinityScroll.html
