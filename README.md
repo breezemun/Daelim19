@@ -6,6 +6,8 @@
 > 3. insert.php
 > 4. select.php
 > 5. main.html
+> 6. insert.html
+> 7. insert_result.php
 
 ## 2019-11-22
 > 1. index2.html
