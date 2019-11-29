@@ -6,6 +6,7 @@
 
 ## 2019-11-22
 > 1. index2.html
+> 2. gulpfile.js
 
 ## 2019.11.15
 > 1. bs_index.html
@@ -15,13 +16,13 @@
 > 5. bs_modal.html
 > 6. bs_navbar.html
 > 7. bs_progress.html
-> 8. favicon 적용
+> 8. favicon
 
 ## 2019.11.08
 > 1. infinityScroll.html
 > 2. backStretch.html
 > 3. vegasVideo.html
-> 4. youtubeBG.html (fixing...)
+> 4. ~~youtubeBG.html~~
 > 5. MSI-html5.code-snippets
 
 ## 2019.10.25
@@ -40,27 +41,23 @@
 > 3. dom_clock.html
 
 ## 2019.10.11
-> 1. bg 생성
-> 2. css 적용
+> 1. bg
+> 2. css
 
 ## 2019.10.02
-> 1. grid 생성
-> 2. css 적용
+> 1. grid
+> 2. css
 
 ## 2019.09.27
-> 1. image 생성
-> 2. audio 생성
-> 3. video 생성
-> 4. youtube 링크
-> 5. table 생성
-> 6. color 반반
-> 2. css 적용
+> 1. image
+> 2. audio
+> 3. video
+> 4. youtube
+> 5. table
+> 6. css
 
 ## 2019.09.20
 #### index.html / main.css 생성
-> 1. 주석 추가 <br>
-> 2. 기본구조 삽입
-> 3. css 적용
-> 4. css 초기화 ( v0.1.0 )
-> 5. 메뉴 생성 ( v0.2.0 )
-> 6. 1st article : margin, padding, border test ( v0.3.0 )
+> 1. css 적용
+> 2. menu
+> 3. 1st article : margin, padding, border test

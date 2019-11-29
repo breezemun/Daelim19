@@ -18,9 +18,9 @@ if($ret) {
     echo "userTBL이 성공적으로 생성됨..";
 }
 else {
-    echo "userTBL 생성 실패!!!", "<BR>"
+    echo "userTBL 생성 실패!!!", "<BR>";
     echo "실패 원인 : ".mysqli_error($con);
 }
 
 mysqli_close($con);
->?
+?>
