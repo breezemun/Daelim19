@@ -1,4 +1,18 @@
-# 문승익 : daelim2019-2 project
+# Moon Seung Ik : Daelim 2019-2 project
+
+## 2019-12-05
+> 1. insert.html
+> 2. main.html
+
+## 2019-12-04
+> 1. index.html (fix)
+> 2. snow_flake.js
+> 3. snow.css
+
+## 2019-12-01
+> 1. index3.html
+> 2. main.css (fix)
+> 3. demo.css (fix)
 
 ## 2019-11-29
 > 1. db_test.php
@@ -39,7 +53,6 @@
 > 6. calendar.html
 > 7. frame.html
 
-
 ## 2019.10.23
 > 1. dom_basic.html
 > 2. dom_basic2.html
@@ -62,7 +75,7 @@
 > 6. css
 
 ## 2019.09.20
-#### index.html / main.css 생성
-> 1. css 적용
+## index.html / main.css
+> 1. css
 > 2. menu
 > 3. 1st article : margin, padding, border test
