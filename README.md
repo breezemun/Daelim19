@@ -1,10 +1,14 @@
 # Moon Seung Ik : Daelim 2019-2 project
 
 ## 2019-12-05
+> 1. top_button.css
+> 2. top_arrow.jpg
+
+## 2019-12-04
 > 1. insert.html
 > 2. main.html
 
-## 2019-12-04
+## 2019-12-03
 > 1. index.html (fix)
 > 2. snow_flake.js
 > 3. snow.css
