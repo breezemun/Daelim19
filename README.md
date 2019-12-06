@@ -1,5 +1,18 @@
 # Moon Seung Ik : Daelim 2019-2 project
 
+## 2019-12-06
+> 1. update.php
+> 2. update_result.php
+> 3. table.php
+> 4. select.php
+> 5. receive.php
+> 6. insert.php
+> 7. insert_result.php
+> 8. info.php
+> 9. delete.php
+>10. delete_result.php
+>11. db_test.php
+
 ## 2019-12-05
 > 1. top_button.css
 > 2. top_arrow.jpg
