@@ -1,5 +1,10 @@
 # Moon Seung Ik : Daelim 2019-2 project
 
+## 2019-12-09
+> 1. without_meta.html
+> 2. at_media_rule.html
+> 3. media_feature.html
+
 ## 2019-12-06
 > 1. update.php
 > 2. update_result.php
